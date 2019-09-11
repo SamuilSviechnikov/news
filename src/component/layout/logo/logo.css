@@ -1,0 +1,25 @@
+.logo{
+	font-size: 30px;
+	line-height: 18px;
+	color: #f8f8f8;
+}
+.logo strong {
+	color: #f3d968;
+}
+.SignedOutLinks{
+	font-size: 25px;
+}
+.menu a{
+	color: #323232;
+	font-style: 16px;
+	line-height: 36px;
+	border: 1px solid transparent;
+	padding: 10px 16px 12px 16px;
+	transition: all .3s;
+}
+.menu a:hover{
+	border-color: #ffc222;
+}
+.menu a + a{
+	margin-left: 13px;
+}

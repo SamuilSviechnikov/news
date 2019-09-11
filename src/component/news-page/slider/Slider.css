@@ -1,0 +1,53 @@
+.slider{
+	background-image: url('../../../img/slider-fon.jpg');
+	background-repeat: no-repeat;
+	background-size: auto, auto;
+	background-position: center;
+	min-height: 500px;
+	margin-bottom: 20px;
+}
+.slider__item{
+	text-align: center;
+	padding-top: 110px;
+	max-width: 665px;
+	margin: 0 auto;
+}
+.slider__title{
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	margin-bottom: 22px;
+	font-family: 'Roboto', sans-serif;
+}
+.slider__text{
+	line-height: 24px;
+	font-size: 18px;
+	color: #d3d2d2;
+	margin-bottom: 50px;
+}
+.slider__btn{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #ffc222;
+	padding: 8px 30px 8px 24px;
+	border-right-width: 20px;
+	z-index: 3;
+	color: #f1efef;
+}
+.slick-next, .slick-prev{
+	top: 70%;
+}
+.slick-dots li button::before{
+	background-color: #ffc222;
+	border-radius: 30px;
+	color: #ffc222;
+	font-size: 8px;
+	margin: 155px 5px 10px 0px;
+}
+
